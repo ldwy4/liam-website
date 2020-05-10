@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/liam-website/static/css/main.1c056f44.chunk.css",
+    "main.css": "/liam-website/static/css/main.60c75781.chunk.css",
     "main.js": "/liam-website/static/js/main.a99ca74b.chunk.js",
     "main.js.map": "/liam-website/static/js/main.a99ca74b.chunk.js.map",
     "runtime-main.js": "/liam-website/static/js/runtime-main.3b732863.js",
@@ -9,10 +9,10 @@
     "static/js/2.bb46f68c.chunk.js": "/liam-website/static/js/2.bb46f68c.chunk.js",
     "static/js/2.bb46f68c.chunk.js.map": "/liam-website/static/js/2.bb46f68c.chunk.js.map",
     "index.html": "/liam-website/index.html",
-    "precache-manifest.03bb3fcaed585be0c01a0ad5acb4f361.js": "/liam-website/precache-manifest.03bb3fcaed585be0c01a0ad5acb4f361.js",
+    "precache-manifest.cd28d528089dc62abb501748d098c004.js": "/liam-website/precache-manifest.cd28d528089dc62abb501748d098c004.js",
     "service-worker.js": "/liam-website/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/liam-website/static/css/2.67123b20.chunk.css.map",
-    "static/css/main.1c056f44.chunk.css.map": "/liam-website/static/css/main.1c056f44.chunk.css.map",
+    "static/css/main.60c75781.chunk.css.map": "/liam-website/static/css/main.60c75781.chunk.css.map",
     "static/js/2.bb46f68c.chunk.js.LICENSE.txt": "/liam-website/static/js/2.bb46f68c.chunk.js.LICENSE.txt",
     "static/media/New_Resume.pdf": "/liam-website/static/media/New_Resume.cd3decf0.pdf",
     "static/media/bizhacks.jpg": "/liam-website/static/media/bizhacks.57809388.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.3b732863.js",
     "static/css/2.67123b20.chunk.css",
     "static/js/2.bb46f68c.chunk.js",
-    "static/css/main.1c056f44.chunk.css",
+    "static/css/main.60c75781.chunk.css",
     "static/js/main.a99ca74b.chunk.js"
   ]
 }
