@@ -1,51 +1,37 @@
 import React, { Component } from "react";
-import "./App.css";
-import Navbar from "./components/navbar";
-import About from "./components/about";
-import Project from "./components/project";
-import { bizhackInfo, macbethInfo } from "./data.js";
-import bizhacks from "./images/bizhacks.jpg";
-import macbeth from "./images/macbeth.png";
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import Songs from "./components/songs";
+import Home from "./components/home"
+import SignIn from "./components/signin";
+import Technology from "./components/technology";
 
 class App extends Component {
-  state = {
-    projects: [
-      {
-        key: 1,
-        title: "Bizhacks 2020",
-        description: bizhackInfo,
-        photo: bizhacks,
-        url:
-          "https://drive.google.com/file/d/1T8zioLIQsgoiZzHTTG4VQxgtjwGHpV4b/view"
-      },
-      {
-        key: 2,
-        title: "Macbeth Arcade Game",
-        description: macbethInfo,
-        photo: macbeth,
-        url: "https://github.com/ldwy4/Macbeth-Arcade"
-      }
-    ]
-  };
   render() {
-    const projects = [...this.state.projects];
-    console.log(projects[0].photo);
     return (
-      <React.Fragment>
-        <Navbar />
-        <About />
-        {projects.map(project => (
-          <Project
-            key={project.key}
-            title={project.title}
-            description={project.description}
-            photo={project.photo}
-            url={project.url}
-          ></Project>
-        ))}
-      </React.Fragment>
+      // <React.Fragment>
+      //   <Navbar />
+      //   <About />
+      //   {/* <Technology /> */}
+      //   <Projects projects={projects}></Projects>
+      //   <Footer />
+      // </React.Fragment>
+      <BrowserRouter>
+      <Route path="/liam-website" component={Home} />
+      <Route path="/liam-website/sign-in" component={SignIn} />
+    </BrowserRouter>
     );
   }
+}
+
+{
+  /* <iframe
+  allow="autoplay *; encrypted-media *;"
+  frameborder="0"
+  height="450"
+  style="width:100%;max-width:660px;overflow:hidden;background:transparent;"
+  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+  src="https://embed.music.apple.com/ca/playlist/staying-in/pl.u-JPAZZNJtm0aYp1"
+></iframe>; */
 }
 
 export default App;
