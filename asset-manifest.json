@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/liam-website/static/css/main.72e6ee6f.chunk.css",
-    "main.js": "/liam-website/static/js/main.ad448016.chunk.js",
-    "main.js.map": "/liam-website/static/js/main.ad448016.chunk.js.map",
+    "main.css": "/liam-website/static/css/main.2b63b67e.chunk.css",
+    "main.js": "/liam-website/static/js/main.b8de569d.chunk.js",
+    "main.js.map": "/liam-website/static/js/main.b8de569d.chunk.js.map",
     "runtime-main.js": "/liam-website/static/js/runtime-main.3b732863.js",
     "runtime-main.js.map": "/liam-website/static/js/runtime-main.3b732863.js.map",
     "static/css/2.67123b20.chunk.css": "/liam-website/static/css/2.67123b20.chunk.css",
-    "static/js/2.c94e9d31.chunk.js": "/liam-website/static/js/2.c94e9d31.chunk.js",
-    "static/js/2.c94e9d31.chunk.js.map": "/liam-website/static/js/2.c94e9d31.chunk.js.map",
+    "static/js/2.142af575.chunk.js": "/liam-website/static/js/2.142af575.chunk.js",
+    "static/js/2.142af575.chunk.js.map": "/liam-website/static/js/2.142af575.chunk.js.map",
     "index.html": "/liam-website/index.html",
-    "precache-manifest.3d88182184dddd29aac435e6e0e5cf8a.js": "/liam-website/precache-manifest.3d88182184dddd29aac435e6e0e5cf8a.js",
+    "precache-manifest.268b2b68da39c6d3a83cdc5a449a4f11.js": "/liam-website/precache-manifest.268b2b68da39c6d3a83cdc5a449a4f11.js",
     "service-worker.js": "/liam-website/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/liam-website/static/css/2.67123b20.chunk.css.map",
-    "static/css/main.72e6ee6f.chunk.css.map": "/liam-website/static/css/main.72e6ee6f.chunk.css.map",
-    "static/js/2.c94e9d31.chunk.js.LICENSE.txt": "/liam-website/static/js/2.c94e9d31.chunk.js.LICENSE.txt",
+    "static/css/main.2b63b67e.chunk.css.map": "/liam-website/static/css/main.2b63b67e.chunk.css.map",
+    "static/js/2.142af575.chunk.js.LICENSE.txt": "/liam-website/static/js/2.142af575.chunk.js.LICENSE.txt",
     "static/media/New_Resume.pdf": "/liam-website/static/media/New_Resume.cd3decf0.pdf",
     "static/media/bizhacks.jpg": "/liam-website/static/media/bizhacks.57809388.jpg",
     "static/media/macbeth.png": "/liam-website/static/media/macbeth.077120ec.png",
     "static/media/poker.png": "/liam-website/static/media/poker.811dfaac.png",
     "static/media/sheets.png": "/liam-website/static/media/sheets.a8e0439b.png",
-    "static/media/square_roster_photo.jpg": "/liam-website/static/media/square_roster_photo.389699d0.jpg"
+    "static/media/square_roster_photo.jpg": "/liam-website/static/media/square_roster_photo.389699d0.jpg",
+    "static/media/stefo.JPG": "/liam-website/static/media/stefo.d1b277e4.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.3b732863.js",
     "static/css/2.67123b20.chunk.css",
-    "static/js/2.c94e9d31.chunk.js",
-    "static/css/main.72e6ee6f.chunk.css",
-    "static/js/main.ad448016.chunk.js"
+    "static/js/2.142af575.chunk.js",
+    "static/css/main.2b63b67e.chunk.css",
+    "static/js/main.b8de569d.chunk.js"
   ]
 }
