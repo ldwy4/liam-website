@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6266e835b8988e50cc4024e5ac72085",
+    "revision": "0a58ac6d83e29282111ac5c6438fe4ff",
     "url": "/liam-website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/liam-website/static/css/2.67123b20.chunk.css"
   },
   {
-    "revision": "98324ac34afa3d3f761d",
-    "url": "/liam-website/static/css/main.2b63b67e.chunk.css"
+    "revision": "484e1630495cb4415d05",
+    "url": "/liam-website/static/css/main.01cb2560.chunk.css"
   },
   {
     "revision": "bbeceaee83994d711a5a",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/liam-website/static/js/2.142af575.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "98324ac34afa3d3f761d",
+    "revision": "484e1630495cb4415d05",
     "url": "/liam-website/static/js/main.bdda82b4.chunk.js"
   },
   {
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "389699d0fae48a23b850f327cce70fa0",
     "url": "/liam-website/static/media/square_roster_photo.389699d0.jpg"
+  },
+  {
+    "revision": "61ca1aceebbb5d8e4b3f9003f628c5ed",
+    "url": "/liam-website/static/media/stefo-min.61ca1ace.JPG"
   },
   {
     "revision": "d1b277e48d62f5229ce52ffb11201848",
