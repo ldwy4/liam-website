@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.417ccbd2.chunk.css",
-    "main.js": "/static/js/main.c00882ee.chunk.js",
-    "main.js.map": "/static/js/main.c00882ee.chunk.js.map",
+    "main.css": "/static/css/main.eeedddd4.chunk.css",
+    "main.js": "/static/js/main.01b4abb8.chunk.js",
+    "main.js.map": "/static/js/main.01b4abb8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.94b503aa.js",
     "runtime-main.js.map": "/static/js/runtime-main.94b503aa.js.map",
     "static/css/2.67123b20.chunk.css": "/static/css/2.67123b20.chunk.css",
-    "static/js/2.7271ad9b.chunk.js": "/static/js/2.7271ad9b.chunk.js",
-    "static/js/2.7271ad9b.chunk.js.map": "/static/js/2.7271ad9b.chunk.js.map",
+    "static/js/2.7d5a0438.chunk.js": "/static/js/2.7d5a0438.chunk.js",
+    "static/js/2.7d5a0438.chunk.js.map": "/static/js/2.7d5a0438.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ee704a3933fccc1fdcbce38a83b9f686.js": "/precache-manifest.ee704a3933fccc1fdcbce38a83b9f686.js",
+    "precache-manifest.afd62259d5ce68177b3c65ff99f6b33a.js": "/precache-manifest.afd62259d5ce68177b3c65ff99f6b33a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/static/css/2.67123b20.chunk.css.map",
-    "static/css/main.417ccbd2.chunk.css.map": "/static/css/main.417ccbd2.chunk.css.map",
-    "static/js/2.7271ad9b.chunk.js.LICENSE.txt": "/static/js/2.7271ad9b.chunk.js.LICENSE.txt",
+    "static/css/main.eeedddd4.chunk.css.map": "/static/css/main.eeedddd4.chunk.css.map",
+    "static/js/2.7d5a0438.chunk.js.LICENSE.txt": "/static/js/2.7d5a0438.chunk.js.LICENSE.txt",
     "static/media/New_Resume.pdf": "/static/media/New_Resume.cd3decf0.pdf",
     "static/media/bizhacks.jpg": "/static/media/bizhacks.57809388.jpg",
     "static/media/macbeth.png": "/static/media/macbeth.077120ec.png",
     "static/media/poker.png": "/static/media/poker.811dfaac.png",
     "static/media/sheets.png": "/static/media/sheets.a8e0439b.png",
     "static/media/square_roster_photo.jpg": "/static/media/square_roster_photo.389699d0.jpg",
-    "static/media/style.css": "/static/media/stefo-min.61ca1ace.JPG",
-    "static/media/stefo.JPG": "/static/media/stefo.d1b277e4.JPG"
+    "static/media/stefo.JPG": "/static/media/stefo.d1b277e4.JPG",
+    "static/media/the_boys.JPG": "/static/media/the_boys.a3d39a09.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.94b503aa.js",
     "static/css/2.67123b20.chunk.css",
-    "static/js/2.7271ad9b.chunk.js",
-    "static/css/main.417ccbd2.chunk.css",
-    "static/js/main.c00882ee.chunk.js"
+    "static/js/2.7d5a0438.chunk.js",
+    "static/css/main.eeedddd4.chunk.css",
+    "static/js/main.01b4abb8.chunk.js"
   ]
 }
