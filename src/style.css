@@ -1,5 +1,80 @@
-.navbar {
+/* .navbar {
   background-color: #002142;
+} */
+.signin-container {
+  text-align: center;
+  display: inline-block;
+  padding: 50px;
+  margin: 60px auto;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  width: 50% !important;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.card {
+  box-shadow: 0 5px 5px rgba(50, 50, 93, 0.05), 0 0px 0px rgba(50, 50, 93, 0.1),
+    0 2px 3px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.card-body {
+  padding: 0 !important;
+  padding-top: 0.5em !important;
+}
+
+.btn-warning {
+  transition: 0.5s;
+}
+
+.btn-warning:focus {
+  box-shadow: none !important;
+  background-color: #ffc107 !important;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800 !important;
+}
+
+.login-button {
+  /* height: 60px; */
+  width: 100%;
+}
+
+html,
+body,
+#root {
+  margin: 0px;
+  height: 100%;
+}
+
+.BGImage {
+  background-image: url(./images/stefo-min.JPG);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seperator {
+  height: 1px;
+  border-radius: 5px;
+  background-color: rgb(146, 145, 145);
 }
 
 .project-container {
@@ -7,10 +82,27 @@
   border-radius: 10px;
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
     0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #002142;
 }
 
-p {
+.songs-container {
+  display: flex;
+  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
+    0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+
+.about-content {
   font-size: 1.1rem;
+  padding-top: 1rem;
+}
+
+.about-header {
+  font-weight: 400;
+  font-size: 2.6em;
 }
 
 .card-img-top {
@@ -31,6 +123,200 @@ p {
 .card {
   width: 100%;
 }
+
+.apple-music-logo {
+  display: inline-block;
+  overflow: hidden;
+  background: url(https://tools.applemusic.com/en-us/badge-lrg.svg?kind=playlist&bubble=apple_music)
+    no-repeat;
+  width: 158px;
+  height: 45px;
+  margin-top: 1rem;
+}
+
+.footer {
+  background-color: #002142;
+  color: #eea200;
+  padding: 4rem;
+  margin-top: 10rem;
+}
+
+.pdf-link,
+.pdf-link:hover {
+  color: #eea200;
+}
+
+.bg-theme {
+  background-color: #002142;
+}
+
+.projects {
+  background-color: #002142;
+  margin-top: 7rem;
+}
+
+.songs {
+  padding-top: 2rem;
+}
+
+#projects {
+  color: #fff;
+}
+
+.languages {
+  font-size: 16px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 250px;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 1200ms ease-out, transform 600ms ease-out,
+    visibility 1200ms ease-out;
+  will-change: opacity, transform, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.btn-project {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: #eea200;
+}
+
+.btn-project:hover {
+  color: #002142;
+  text-decoration: none;
+}
+
+.navbar .navbar-nav .nav-item {
+  margin-right: 15px;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #002142;
+}
+
+.login {
+  position: relative;
+  margin: 60px auto;
+}
+
+svg {
+  width: 40px;
+  display: inline;
+  position: absolute;
+  bottom: 6.5em;
+}
+
+@media (max-width: 767px) {
+  svg {
+    width: 20px;
+    display: inline;
+    position: absolute;
+    bottom: 3em;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  svg {
+    width: 25px;
+    display: inline;
+    position: absolute;
+    bottom: 3.5em;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  svg {
+    width: 40px;
+    display: inline;
+    position: absolute;
+    bottom: 5em;
+  }
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+}
+
+.circle {
+  -webkit-animation: dash 0.9s ease-in-out;
+  animation: dash 0.9s ease-in-out;
+}
+.line {
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 0.9s 0.35s ease-in-out forwards;
+  animation: dash 0.9s 0.35s ease-in-out forwards;
+}
+.check {
+  stroke-dashoffset: -100;
+  -webkit-animation: dash-check 0.9s 0.35s ease-in-out forwards;
+  animation: dash-check 0.9s 0.35s ease-in-out forwards;
+}
+
+@-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
+
+@keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
 /* .about-photo {
   background-size: cover;
   background-position: 0 0;

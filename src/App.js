@@ -1,9 +1,13 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { HashRouter, Route, Switch, Link, Redirect } from "react-router-dom";
 import Songs from "./components/songs";
 import Home from "./components/home"
 import SignIn from "./components/signin";
 import Technology from "./components/technology";
+import Goog from "./components/goog";
+import Sheets from "./components/sheets"
+import Policy from "./components/policy"
+import Term from "./components/term"
 
 class App extends Component {
   render() {
@@ -15,10 +19,25 @@ class App extends Component {
       //   <Projects projects={projects}></Projects>
       //   <Footer />
       // </React.Fragment>
-      <BrowserRouter>
-      <Route path="/liam-website" component={Home} />
-      <Route path="/liam-website/sign-in" component={SignIn} />
-    </BrowserRouter>
+      <HashRouter>
+        <Switch>
+          <Route
+                exact
+                path="/"
+                render={() => {
+                    return (
+                      <Redirect to="/sign-in" />
+                    )
+                }}
+              />
+          <Route path="/site" component={Home} />
+          <Route path="/sign-in" component={SignIn} />
+          <Route path="/goog" component={Goog} />
+          <Route path="/drive" component={Sheets} />
+          <Route path="/policy" component={Policy} />
+          <Route path="/terms" component={Term} />
+        </Switch>
+    </HashRouter>
     );
   }
 }
