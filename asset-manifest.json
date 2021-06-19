@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.0f77b26d.chunk.css",
-    "main.js": "/static/js/main.19b503ba.chunk.js",
-    "main.js.map": "/static/js/main.19b503ba.chunk.js.map",
+    "main.js": "/static/js/main.915373d3.chunk.js",
+    "main.js.map": "/static/js/main.915373d3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.94b503aa.js",
     "runtime-main.js.map": "/static/js/runtime-main.94b503aa.js.map",
     "static/css/2.67123b20.chunk.css": "/static/css/2.67123b20.chunk.css",
     "static/js/2.16680bb0.chunk.js": "/static/js/2.16680bb0.chunk.js",
     "static/js/2.16680bb0.chunk.js.map": "/static/js/2.16680bb0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a64299cbde8784b0c396a9732de2794f.js": "/precache-manifest.a64299cbde8784b0c396a9732de2794f.js",
+    "precache-manifest.e50e6f3c5cda1dc34061cacdf94e8368.js": "/precache-manifest.e50e6f3c5cda1dc34061cacdf94e8368.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/static/css/2.67123b20.chunk.css.map",
     "static/css/main.0f77b26d.chunk.css.map": "/static/css/main.0f77b26d.chunk.css.map",
@@ -22,7 +22,7 @@
     "static/media/sheets.png": "/static/media/sheets.a8e0439b.png",
     "static/media/square_roster_photo.jpg": "/static/media/square_roster_photo.389699d0.jpg",
     "static/media/stefo.JPG": "/static/media/stefo.d1b277e4.JPG",
-    "static/media/the_boys.JPG": "/static/media/the_boys.a3d39a09.JPG",
+    "static/media/the_boys_comp.JPG": "/static/media/the_boys_comp.4522c3d9.JPG",
     "static/media/watch.png": "/static/media/watch.1df684aa.png"
   },
   "entrypoints": [
@@ -30,6 +30,6 @@
     "static/css/2.67123b20.chunk.css",
     "static/js/2.16680bb0.chunk.js",
     "static/css/main.0f77b26d.chunk.css",
-    "static/js/main.19b503ba.chunk.js"
+    "static/js/main.915373d3.chunk.js"
   ]
 }
