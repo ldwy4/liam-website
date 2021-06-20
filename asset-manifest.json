@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.0f77b26d.chunk.css",
-    "main.js": "/static/js/main.5561b95c.chunk.js",
-    "main.js.map": "/static/js/main.5561b95c.chunk.js.map",
+    "main.js": "/static/js/main.52027bda.chunk.js",
+    "main.js.map": "/static/js/main.52027bda.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.94b503aa.js",
     "runtime-main.js.map": "/static/js/runtime-main.94b503aa.js.map",
     "static/css/2.67123b20.chunk.css": "/static/css/2.67123b20.chunk.css",
-    "static/js/2.16680bb0.chunk.js": "/static/js/2.16680bb0.chunk.js",
-    "static/js/2.16680bb0.chunk.js.map": "/static/js/2.16680bb0.chunk.js.map",
+    "static/js/2.52e7520c.chunk.js": "/static/js/2.52e7520c.chunk.js",
+    "static/js/2.52e7520c.chunk.js.map": "/static/js/2.52e7520c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f2a836370c87e26c5bdd329f7049a53b.js": "/precache-manifest.f2a836370c87e26c5bdd329f7049a53b.js",
+    "precache-manifest.86c2f17c90fb7e42ebcb3d5f25c3cb47.js": "/precache-manifest.86c2f17c90fb7e42ebcb3d5f25c3cb47.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/static/css/2.67123b20.chunk.css.map",
     "static/css/main.0f77b26d.chunk.css.map": "/static/css/main.0f77b26d.chunk.css.map",
-    "static/js/2.16680bb0.chunk.js.LICENSE.txt": "/static/js/2.16680bb0.chunk.js.LICENSE.txt",
+    "static/js/2.52e7520c.chunk.js.LICENSE.txt": "/static/js/2.52e7520c.chunk.js.LICENSE.txt",
     "static/media/New_Resume.pdf": "/static/media/New_Resume.cd3decf0.pdf",
     "static/media/bizhacks.jpg": "/static/media/bizhacks.57809388.jpg",
     "static/media/log.PNG": "/static/media/log.b4707935.PNG",
@@ -21,15 +21,14 @@
     "static/media/poker.png": "/static/media/poker.811dfaac.png",
     "static/media/sheets.png": "/static/media/sheets.a8e0439b.png",
     "static/media/square_roster_photo.jpg": "/static/media/square_roster_photo.389699d0.jpg",
-    "static/media/stefo_comp.JPG": "/static/media/stefo_comp.047d8371.JPG",
-    "static/media/the_boys_comp.JPG": "/static/media/the_boys_comp.f0be6594.JPG",
+    "static/media/the_boys_comp.jpg": "/static/media/the_boys_comp.df08c16d.jpg",
     "static/media/watch.png": "/static/media/watch.1df684aa.png"
   },
   "entrypoints": [
     "static/js/runtime-main.94b503aa.js",
     "static/css/2.67123b20.chunk.css",
-    "static/js/2.16680bb0.chunk.js",
+    "static/js/2.52e7520c.chunk.js",
     "static/css/main.0f77b26d.chunk.css",
-    "static/js/main.5561b95c.chunk.js"
+    "static/js/main.52027bda.chunk.js"
   ]
 }
