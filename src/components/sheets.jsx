@@ -9,13 +9,14 @@ class Sheets extends Component {
       id: '',
       url: '',
       sheets: [],
-      UID: Cookies.get('id')
+      UID: Cookies.get('id'),
+      otherURL: "https://api.tbirdsync.com/create?" + "uid=" + Cookies.get('id'),
     };
   }
 
   componentDidMount() {
     //     const proxyurl = "https://cors-anywhere.herokuapp.com/";
-    const url = "https://www.tbirdsync.com/drive?code=" + this.state.UID;
+    const url = "https://api.tbirdsync.com/drive?code=" + this.state.UID;
     fetch(url, {
       credentials: 'include'
     }).then((response) =>
@@ -54,7 +55,7 @@ class Sheets extends Component {
     console.log(payload);
     var something = JSON.stringify(payload);
 
-    fetch("https://www.tbirdsync.com/cookie", {
+    fetch("https://api.tbirdsync.com/cookie", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -71,7 +72,7 @@ class Sheets extends Component {
 
   handleChangeId = childId => e => {
       this.setState({id: childId});
-      this.setState({url: "https://www.tbirdsync.com/sheet?code=" + childId + "&uid=" + this.state.UID})
+      this.setState({url: "https://api.tbirdsync.com/sheet?code=" + childId + "&uid=" + this.state.UID})
       console.log(this.state.id)
       console.log(this.state.url)
   }
@@ -97,6 +98,9 @@ class Sheets extends Component {
                 />
             ))}
             <button className="mt-4 btn btn-danger" type="submit" value={this.state.id}>submit</button>
+          </form>
+          <form action={this.state.otherURL} method="POST">
+            <button className="mt-4 btn btn-primary" type="submit" value={this.state.UID}>Create</button>
           </form>
         </div>
       </section>

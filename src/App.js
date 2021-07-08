@@ -3,6 +3,7 @@ import { HashRouter, Route, Switch, Link, Redirect } from "react-router-dom";
 import Songs from "./components/songs";
 import Home from "./components/home"
 import SignIn from "./components/signin";
+import Landing from "./components/landing";
 import Technology from "./components/technology";
 import Goog from "./components/goog";
 import Sheets from "./components/sheets"
@@ -26,11 +27,11 @@ class App extends Component {
                 path="/"
                 render={() => {
                     return (
-                      <Redirect to="/sign-in" />
+                      <Redirect to="/site" />
                     )
                 }}
               />
-          <Route path="/site" component={Home} />
+          <Route path="/site" component={Landing} />
           <Route path="/sign-in" component={SignIn} />
           <Route path="/goog" component={Goog} />
           <Route path="/drive" component={Sheets} />

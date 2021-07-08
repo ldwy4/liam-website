@@ -7,7 +7,7 @@ class About extends Component {
     return (
       <section className="mb-4 mt-3 ml-4 mr-4 text-left">
         <h2>Privacy Policy</h2>
-        <p>Your privacy is important to us. It is UBC Athletics&#39; policy to respect your privacy and comply with any applicable law and regulation regarding any personal information we may collect about you, including across our website, <a href="http://stravasync.pythonanywhere.com">http://stravasync.pythonanywhere.com</a>, and other sites we own and operate. </p>
+        <p>Your privacy is important to us. It is UBC Athletics&#39; policy to respect your privacy and comply with any applicable law and regulation regarding any personal information we may collect about you, including across our website, <a href="https://www.tbirdsync.com">https://www.tbirdsync.com</a>, and other sites we own and operate. </p>
         <p>This policy is effective as of 12 April 2021 and was last updated on 12 April 2021. </p>
         <h3>Information We Collect</h3>
         <p>Information we collect includes both information you knowingly and actively provide us when using or participating in any of our services and promotions, and any information automatically sent by your devices in the course of accessing our products and services. </p>

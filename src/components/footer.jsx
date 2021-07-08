@@ -4,11 +4,11 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <section className="footer text-center">
-        <div className="mt-4 container">
+      <section id="contact" className="footer text-center">
+        <div className="container">
           <div className="justify-content-md-center row">
             <div className="col-md-5">
-              <p className=""> Liam Dwyer &copy; 2020</p>
+              <p className=""> Liam Dwyer &copy; 2021</p>
             </div>
           </div>
         </div>

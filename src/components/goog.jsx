@@ -25,7 +25,7 @@ class goog extends Component {
           disabled={this.state.disable}
           className="login-button"
           onClick={(e) => {
-            window.location.href="https://www.tbirdsync.com/url";
+            window.location.href="https://api.tbirdsync.com/url";
           }}>
           </input>
           {/* <a

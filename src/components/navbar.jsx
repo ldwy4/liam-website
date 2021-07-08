@@ -18,41 +18,7 @@ class Navbar extends Component {
       ? "navbar-toggler navbar-toggler-right collapsed"
       : "navbar-toggler navbar-toggler-right";
     return (
-      // <nav className="navbar navbar-dark">
-      //   <button
-      //     aria-controls="#basic-navbar-nav"
-      //     data-target="#basic-navbar-nav"
-      //     type="button"
-      //     aria-label="Toggle navigation"
-      //     className="navbar-toggler"
-      //   >
-      //     <span className="navbar-toggler-icon"></span>
-      //   </button>
-      //   <div className={classOne} id="basic-navbar-nav">
-      //     <div className="navbar-nav ml-auto">
-      //       <a
-      //         className="nav-item"
-      //         href="https://gothunderbirds.ca/sports/track-and-field/roster/liam-dwyer/8174"
-      //         target="_blank"
-      //       >
-      //         <img
-      //           alt=""
-      //           src={Roster}
-      //           width="50"
-      //           height="50"
-      //           className="d-inline-block align-top rounded-circle"
-      //         />
-      //       </a>
-      //       <a className="nav-item" href="#projects">
-      //         Projects
-      //       </a>
-      //       <a className="nav-item" href="#songs">
-      //         Music
-      //       </a>
-      //     </div>
-      //   </div>
-      // </nav>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-custom ">
         <button
           class="navbar-toggler"
           type="button"
@@ -64,29 +30,16 @@ class Navbar extends Component {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a className="nav-item nav-link" href="#projects">
-              Projects
-            </a>
-            <a className="nav-item nav-link" href="#songs">
-              Music
-            </a>
-            <span className="navbar-brand">
-              <a
-                href="https://gothunderbirds.ca/sports/track-and-field/roster/liam-dwyer/8174"
-                target="_blank"
-              >
-                <img
-                  alt=""
-                  src={Roster}
-                  width="50"
-                  height="50"
-                  className="d-inline-block align-top rounded-circle"
-                />
-              </a>
-            </span>
-          </div>
+        <div class="navbar-nav">
+          <span className="navbar-brand branding">
+            TbirdSync
+          </span>
+          
+
+        </div>
+        <div className='navbar-nav ml-auto'>
+          <a className="nav-link nav-item" href="#policy">Privacy Policy</a>
+          <a className="nav-link nav-item" href="#terms">Terms</a>
         </div>
       </nav>
     );

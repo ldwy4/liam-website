@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import StravaLogo from "../images/strava_connect.png";
-import stefo from "../images/stefo.JPG";
+import boys from "../images/the_boys_comp.jpg"
 import Goog from "./goog"
 import Cookies from 'js-cookie';
 // import Sheet from "../images/sheets.png";
@@ -9,13 +9,19 @@ class signin extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      display: false
+      display: false,
+      // img: stefo
     }
     if (Cookies.get('id') == null) {
       this.state.display = false;
     } else {
       this.state.display = true;
     }
+    // if (Math.floor(Math.random() * 2) == 0) {
+    //   this.state.img = boys;
+    // } else {
+    //   this.state.img = stefo;
+    // }
   }
   render() {
     const renderCheck = () => {
@@ -30,7 +36,7 @@ class signin extends Component {
     }
     return (
       <React.Fragment>
-        <div className='BGImage'>
+        <div className='BGImage' style={{backgroundImage : "url(" + boys + ")"}}>
           <div className='container wrapper'>
             <div className='signin-container'>
                 <h2>Sign in</h2>
@@ -40,7 +46,7 @@ class signin extends Component {
                     disabled={this.state.display}
                     className="login-button"
                     onClick={(e) => {
-                      window.location.href="https://www.strava.com/oauth/authorize?client_id=51156&response_type=code&redirect_uri=http://www.tbirdsync.com/strava&approval_prompt=force&scope=activity:read_all";
+                      window.location.href="https://www.strava.com/oauth/authorize?client_id=51156&response_type=code&redirect_uri=https://api.tbirdsync.com/strava&approval_prompt=force&scope=activity:read_all";
                     }}>
                   </input>
                   {renderCheck()}
