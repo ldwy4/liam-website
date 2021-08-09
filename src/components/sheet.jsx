@@ -23,17 +23,17 @@ class Sheet extends Component {
   render() {
     let { title, id, onChangeId } = this.props;
         return (
-            <div className="mb-2 mt-2 mr-5 col-md-12">
+            <div className="mb-2 mt-2 sheet">
                 <div className="card" id={id} >
                     <button
-                      className={ !this.props.active ? 'btn' : 'btn btn-warning' }
+                      className={ !this.props.active ? 'btn' : 'btn btn-info' }
                       onClick={onChangeId}
                       type="button"
                       style={{ Color: "#FFF" }}
                       value={id}
                         // onClick={onChangeId}
                     >
-                    <div class="card-horizontal">
+                    <div className="card-horizontal">
                         <div className='image-wrapper'> <img src={sheetImage} height='40px'></img></div>
                         
                         <div className="card-body">

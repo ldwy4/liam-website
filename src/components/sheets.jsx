@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Sheet from "./sheet";
 import Cookies from 'js-cookie'
+import Navbar from "./navbar";
+import Loader from "react-loader-spinner";
 
 class Sheets extends Component {
   constructor() {
@@ -11,11 +13,14 @@ class Sheets extends Component {
       sheets: [],
       UID: Cookies.get('id'),
       otherURL: "https://api.tbirdsync.com/create?" + "uid=" + Cookies.get('id'),
+      loaded: false,
+      loading: false,
     };
+    this.showSheets = this.showSheets.bind(this)
   }
 
-  componentDidMount() {
-    //     const proxyurl = "https://cors-anywhere.herokuapp.com/";
+  showSheets() {
+    this.setState({ loading: true });
     const url = "https://api.tbirdsync.com/drive?code=" + this.state.UID;
     fetch(url, {
       credentials: 'include'
@@ -37,7 +42,7 @@ class Sheets extends Component {
 
         //   runs.push({ key: key, date: run[0], distance: run[1], time: run[2] });
         // }
-        this.setState({ sheets: sheets, loaded: true });
+        this.setState({ sheets: sheets, loaded: true, loading: false, });
       })
     );
   }
@@ -60,7 +65,7 @@ class Sheets extends Component {
       headers: {
         "Content-Type": "application/json",
       },
-    //   body: something,
+      //   body: something,
     })
       .then((response) => {
         return response.json();
@@ -71,10 +76,10 @@ class Sheets extends Component {
   }
 
   handleChangeId = childId => e => {
-      this.setState({id: childId});
-      this.setState({url: "https://api.tbirdsync.com/sheet?code=" + childId + "&uid=" + this.state.UID})
-      console.log(this.state.id)
-      console.log(this.state.url)
+    this.setState({ id: childId });
+    this.setState({ url: "https://api.tbirdsync.com/sheet?code=" + childId + "&uid=" + this.state.UID })
+    console.log(this.state.id)
+    console.log(this.state.url)
   }
 
   render() {
@@ -84,24 +89,45 @@ class Sheets extends Component {
     }
     console.log(this.state.UID)
     return (
-      <section style={{ marginLeft: "25px" }}>
-        <h2 className="title">Sheet Select</h2>
-        <div className="runs row">
-          <form className="mb-2 mt-2 col-md-12" action={this.state.url} method="POST"> 
-            {this.state.sheets.map((sheet) => (
-                <Sheet
+      <section style={{ display: "flex", flexDirection: "row", height: "auto", minHeight: "100%", overflow: "auto" }}>
+        <div className="sheets">
+          <div className="content">
+            <h3 className="sheets-title">Select an existing training log</h3>
+            {this.state.loading &&
+              <Loader
+                type="TailSpin"
+                color="#00BFFF"
+                height={40}
+                width={40}
+                timeout={5000} //3 secs
+              />
+            }
+            {!this.state.loaded ?
+              <button className={this.state.loading ? "btn btn-danger mt-3" : "btn btn-danger" } onClick={this.showSheets}>Select</button>
+              :
+              <form className="list" action={this.state.url} method="POST">
+                {this.state.sheets.map((sheet) => (
+                  <Sheet
                     key={sheet.key}
                     title={sheet.title}
                     id={sheet.id}
                     onChangeId={this.handleChangeId(sheet.id)}
                     active={this.state.id === sheet.id}
-                />
-            ))}
-            <button className="mt-4 btn btn-danger" type="submit" value={this.state.id}>submit</button>
-          </form>
-          <form action={this.state.otherURL} method="POST">
-            <button className="mt-4 btn btn-primary" type="submit" value={this.state.UID}>Create</button>
-          </form>
+                  />
+                ))}
+                <button className="btn btn-danger" type="submit" value={this.state.id}>submit</button>
+              </form>
+            }
+          </div>
+        </div>
+        {/* <div class="vl"></div> */}
+        <div className={!this.state.loaded ? "create" : "createShrink"}>
+          <div className="content">
+            <h3 className="create-title">Create a new training log for this year</h3>
+            <form action={this.state.otherURL} method="POST">
+              <button className="btn btn-primary" type="submit" value={this.state.UID}>Create</button>
+            </form>
+          </div>
         </div>
       </section>
     );
